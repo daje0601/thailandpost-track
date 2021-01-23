@@ -11,7 +11,7 @@ from .status_code import StatusCode
 
 class ThailandpostTrack:
     def __init__(self, token_key=None):
-        self.token_key = token_key
+        self.token_key = "NNB5IdB:CFSwFNW-FDW:ZVM0V*XlJPPLB9U!AxUHLnR=O;CUXbWHRDVYRXYeInRsScAAUQJZYpBfPBQlXpS7ESIwFTH1L5S4HjX9"
         self.API_ROOT = ENDPOINTS["API_ROOT"]
         self.token = ''
         self._expire = None
