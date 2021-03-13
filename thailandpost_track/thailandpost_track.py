@@ -3,17 +3,17 @@ A libraly that provides a python interface to Thailand Post API
 """
 import json
 
-from .constants import ENDPOINTS
-from .language import Language
-from .request import basic_request
-from .status_code import StatusCode
+from constants import ENDPOINTS
+from language import Language
+from request import basic_request
+from status_code import StatusCode
 
 
 class ThailandpostTrack:
     def __init__(self, token_key=None):
         self.token_key = token_key
         self.API_ROOT = ENDPOINTS["API_ROOT"]
-        self.token = ''
+        self.token = "HLEAN!R#ZTS?JFKzE*TxFYBMSqPSWNGhWKFxGMOUI=AxI~LgO#S+NSDxX@W6UnM;NIHlQBPZVVT%FaUzL3DjPQR*K:APNES9ZXY5"
         self._expire = None
         self.fetch_token()
 
